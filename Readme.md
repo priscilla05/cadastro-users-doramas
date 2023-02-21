@@ -14,6 +14,7 @@ Buscar uma usuária pelo seu id;
 Inserir uma nova usuária;
 
 ##Passos do sistema
+
 Criação do projeto
 Implementação o modelo de domínio
 Mapeamento objeto-relacional com JPA
