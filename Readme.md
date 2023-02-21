@@ -16,8 +16,12 @@ Inserir uma nova usuária;
 ##Passos do sistema
 
 Criação do projeto
+
 Implementação o modelo de domínio
+
 Mapeamento objeto-relacional com JPA
+
 Configurar o banco de dados H2
+
 Criar os endpoints da API REST
 
