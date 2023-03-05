@@ -9,7 +9,7 @@ import jakarta.persistence.Entity;
 
 @Entity
 @Table(name = "tb_dorama")
-public class Doramas {
+public class Dorama {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -17,7 +17,7 @@ public class Doramas {
     private String name;
 
 
-    public Doramas(){
+    public Dorama(){
 
     }
 

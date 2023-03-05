@@ -6,11 +6,9 @@ import jakarta.persistence.Table;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 
-import java.util.Objects;
-
 @Entity
-@Table(name = "tb_usuaria")
-public class Users {
+@Table(name = "tb_user")
+public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -20,9 +18,9 @@ public class Users {
 
     @ManyToOne
     @JoinColumn(name = "dorama_id")
-    private Doramas dorama;
+    private Dorama dorama;
 
-    public Users(){
+    public User(){
 
     }
 
@@ -50,11 +48,11 @@ public class Users {
         this.email = email;
     }
 
-    public Doramas getDorama() {
+    public Dorama getDorama() {
         return dorama;
     }
 
-    public void setDorama(Doramas dorama) {
+    public void setDorama(Dorama dorama) {
         this.dorama = dorama;
     }
 

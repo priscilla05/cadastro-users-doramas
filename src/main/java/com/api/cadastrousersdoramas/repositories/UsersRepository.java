@@ -1,7 +1,7 @@
 package com.api.cadastrousersdoramas.repositories;
 
-import com.api.cadastrousersdoramas.entities.Users;
+import com.api.cadastrousersdoramas.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface UsersRepository extends JpaRepository<Users,Long> {
+public interface UsersRepository extends JpaRepository<User,Long> {
 }
